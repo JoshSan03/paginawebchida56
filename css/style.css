@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+
+*{
+box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+
+}
+
+.column img{
+margin-top: 5px;
+}
